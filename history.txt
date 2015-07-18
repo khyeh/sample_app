@@ -1,0 +1,71 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd ~/workspace
+    5  rails _4.2.2_ new toy_app
+    6  ls
+    7  cd toy_app/
+    8  ls
+    9  gem install rails -v 4.2.2
+   10  rails _4.2.2_ new toy_app
+   11  ls
+   12  cd toy_app/
+   13  bundle install --without production
+   14  git init
+   15  git add -A
+   16  git commit -m
+   17  git commit -m "Initialize repository"
+   18  git remote add origin https://github.com/khyeh/toy_app.git
+   19  git push -u origin -all
+   20  git push -u origin --all
+   21  git commit -am "Add hello"
+   22  rails generate scaffold User name::string email::string
+   23  bundle exec rake db:migrate
+   24  rails server -b $IP -p $PORT
+   25  bin/rake db:migrate RAILS_ENV=development
+   26  rails server -b $IP -p $PORT
+   27  rake db:migrate RAILS_ENV=development
+   28* 
+   29  bundle exec rake test:prepare
+   30  bundle exec rake db:migrate
+   31  -b $IP -p $PORT
+   32  $IP -p $PORT
+   33  rails server -b $IP -p $PORT
+   34  rake db:rollback
+   35  bundle exec rake test:prepare
+   36  bundle exec rake db:migrate
+   37  git status
+   38  rake db:migrate --trace
+   39  rails generate scaffold User name:string email:string
+   40  git checkout -f
+   41  rails generate scaffold User name:string email:string
+   42  rails generate scaffold User name:string email:string --force
+   43  bundle exec rake db:migrate
+   44  rails server -b $IP -p $PORT
+   45  rails generate scaffold Micropost content:text user_id:integer
+   46  bundle exec rake db:migrate
+   47  rails server -b $IP -p $PORT
+   48  rails console
+   49  rails server -b $IP -p $PORT
+   50  rails console
+   51  git status
+   52  git add -A
+   53  git commit -m "finish toy app"
+   54  git push
+   55  git push github
+   56  git push toy_app
+   57  git push
+   58  history
+   59  git push
+   60  git config --list
+   61  git status
+   62  git push
+   63  git push origin master
+   64  git push
+   65  cd ~/workspace
+   66  rails _4.2.2_ new sample_app
+   67  cd sample_app/
+   68  bundle install --without production
+   69  git init
+   70  history
+   71  history > history.txt
