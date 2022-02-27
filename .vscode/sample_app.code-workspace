@@ -1,0 +1,10 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "terminal.integrated.defaultProfile.windows": "Ubuntu-18.04 (WSL)"
+  }
+}
