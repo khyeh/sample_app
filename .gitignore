@@ -39,5 +39,5 @@
 yarn-debug.log*
 .yarn-integrity
 
-# Ignore spring files
-/spring/*.pid
+# Ignore db test files.
+db/test.*
